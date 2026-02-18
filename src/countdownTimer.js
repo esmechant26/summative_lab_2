@@ -6,17 +6,18 @@ function countdownTimer(time, interval) {
   let i = time;
   const myInterval = setInterval(() => {
     i--;
-    if(i > 0)
-    {console.log(chalk.bgRedBright(`\nYou have ${i} minute left`))}
-    else if (i <= 0){
+    if (i > 0) {
+      console.log(chalk.bgRedBright(`\nYou have ${i} minute left`));
+    } else if (i <= 0) {
       clearInterval(myInterval);
-      console.log(chalk.bgRedBright("\nYou ran out of time. Returning to main menu."))
-      showMainMenu()
+      console.log(
+        chalk.bgRedBright('\nYou ran out of time. Returning to main menu.'),
+      );
+      showMainMenu();
     }
   }, interval);
 
   return myInterval;
 }
-
 
 export default countdownTimer;
