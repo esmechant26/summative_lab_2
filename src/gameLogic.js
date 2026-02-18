@@ -14,7 +14,7 @@ export const gameState = {
     over: false,
 }
 
-export async function showMainMenu(gameState) {
+export async function showMainMenu() {
   const action = await select({
     message: "Main Menu",
     choices: [
@@ -47,7 +47,7 @@ export async function showMainMenu(gameState) {
       break;
     case "quit":
       console.log("Goodbye!");
-      process.exit(0);
+     process.exit(0);
   }
 }
 

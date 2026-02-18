@@ -16,5 +16,11 @@
   },
   "keywords": [],
   "author": "esme chant",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "eslint-define-config": "^2.1.0",
+    "globals": "^17.3.0"
+  }
 }
