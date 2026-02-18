@@ -1,0 +1,20 @@
+{
+  "name": "summative_lab_2",
+  "version": "1.0.0",
+  "description": "CLI trivia",
+  "type": "module",
+  "main": "bin/index.js",
+  "bin": {
+    "summative_lab_2": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^2.3.1",
+    "chalk": "^5.3.0"
+  },
+  "keywords": [],
+  "author": "esme chant",
+  "license": "ISC"
+}
